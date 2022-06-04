@@ -1,0 +1,113 @@
+body::-webkit-scrollbar{
+    width: 6px;
+}
+
+
+body::-webkit-scrollbar-thumb {
+      
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #4a9670;  /* creates padding around scroll thumb */
+  }
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_flyAgro{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo{
+    width: 10%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+
+    
+}
+
+.nomelogo{
+    margin-left: 5%;
+
+}
+
+.navlinks{
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.links{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.links li{
+    position: relative;
+    font: inherit;
+    list-style: none;
+   
+}
+
+.links li a:hover::after{
+    content: '';
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    
+}
+
+.links li a {
+    text-decoration: none;
+    color: #515151;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.download_PDF{
+    position: absolute;
+    width: 30%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #63BE90;
+    border-radius: 10px 0 0 10px;
+}
+
+.downloadbutton{
+    position: absolute;
+    left: 35%;
+    top: 2%;
+    padding: 20px 40px;
+    background-color: #4285F4;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.downloadbutton:hover{
+    background-color: #3669bb;
+}

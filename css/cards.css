@@ -1,0 +1,43 @@
+.Quem_somos{
+  margin-top: 15%;
+}
+
+.Quem_somos h1 {
+    position: relative;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+}
+
+.Quem_somos h1::before{
+    content: '';
+    position: absolute;
+    
+    bottom: 0;
+    width: 250px;
+    height: 2px;
+    border-bottom: 3px solid #63BE90;
+}
+
+.box_quem_somos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_flyAgro{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_flyAgro p {
+    width: 80%;
+    text-align: center;
+}
+
+.card_flyAgro:nth-child(2){
+    margin-top: 10%;
+}

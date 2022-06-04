@@ -1,0 +1,29 @@
+.grupo_info{
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Gowun Dodum', sans-serif; 
+}
+
+.grupos h1 {
+    font-size: 4rem;
+}
+
+.grupo_info h1 span {
+    color: #4285F4;
+    font-size: 3rem;
+}
+
+.grupo_info p {
+    color: #63BE90;
+    font-size: 1.4rem;
+}
+
+.Integrantes{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Integrantes img {
+    padding: 0 50px;
+}

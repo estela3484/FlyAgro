@@ -1,0 +1,47 @@
+.futuro{
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.box_txt{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.box_txt span {
+    color: #4285F4;
+    
+}
+
+.box_txt h1{
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+.box_txt .btn{
+    background-color: #63BE90;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 30px;
+}
+
+.box_txt .btn:hover{
+    background-color: #4a9771;
+}
+
+.Drone{
+    z-index: 10;
+}
+

@@ -1,0 +1,26 @@
+footer {
+    text-align: center;
+    background-color: #63BE90;
+    color: #fff;
+    font-size: 1.75rem;
+}
+
+footer img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer a{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+footer a:hover{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+
+}
+
